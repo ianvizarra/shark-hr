@@ -1,3 +1,9 @@
+/* App base styling */
+@import 'base';
+@import 'reset';
+@import 'buttons';
+@import 'form';
+@import 'nprogress';
 /**
  * This injects Tailwind's base styles, which is a combination of
  * Normalize.css and some additional base styles.
