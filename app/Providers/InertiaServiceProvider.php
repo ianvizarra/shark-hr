@@ -41,6 +41,7 @@ class InertiaServiceProvider extends ServiceProvider
             'user' => function () {
                 return auth()->user();
             },
+            'app' => env('APP_NAME', 'Laravel'),
             'errors' => function () {
                 return $this->sharedValidationErrors();
             },

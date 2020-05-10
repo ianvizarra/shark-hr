@@ -8,7 +8,7 @@
         </div>
 
         <div class="h-screen flex flex-col justify-center items-center">
-            <div class="text-gray-600 mb-8 font-thin" style="font-size: 5.375rem">Cash Hub</div>
+            <div class="text-gray-600 mb-8 font-thin" style="font-size: 5.375rem">{{$page.app}}</div>
         </div>
     </div>
 </template>
