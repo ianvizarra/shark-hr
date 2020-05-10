@@ -1,10 +1,16 @@
 import "./bootstrap"
 import Vue from "vue"
+import VueMeta from 'vue-meta'
+import PortalVue from 'portal-vue'
 import { InertiaApp } from "@inertiajs/inertia-vue"
 
-Vue.use(InertiaApp)
-
+Vue.config.productionTip = false
 Vue.prototype.$route = route
+
+Vue.use(VueMeta)
+Vue.use(PortalVue)
+Vue.use(InertiaApp)
+Vue.mixin({ methods: { route: window.route } })
 
 /**
  * The following block of code may be used to automatically register your
@@ -20,6 +26,9 @@ files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(
 const app = document.getElementById('app')
 
 new Vue({
+    metaInfo: {
+        titleTemplate: (title) => title ? `${title} - Sharx HR` : 'Sharx HR'
+    },
     render: h => h(InertiaApp, {
         props: {
             initialPage: JSON.parse(app.dataset.page),
