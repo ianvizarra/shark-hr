@@ -15,10 +15,7 @@ Route::inertia('/', 'Welcome')->name('index');
 
 Auth::routes();
 
-/*
- * Load all module routes
- *
- */
-foreach (glob(__DIR__."/modules/*.php") as $route) {
+// Load all module routes
+foreach (glob(__DIR__.'/modules/*.php') as $route) {
     include $route;
 }

@@ -9,8 +9,6 @@ class InertiaServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any application services.
-     *
-     * @return void
      */
     public function boot()
     {
@@ -20,8 +18,6 @@ class InertiaServiceProvider extends ServiceProvider
 
     /**
      * Boot cache busting.
-     *
-     * @return void
      */
     protected function bootCacheBusting()
     {
@@ -32,8 +28,6 @@ class InertiaServiceProvider extends ServiceProvider
 
     /**
      * Boot shared properties.
-     *
-     * @return void
      */
     protected function bootSharedProperties()
     {
