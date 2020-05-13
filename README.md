@@ -9,7 +9,7 @@
 <a href="https://github.com/sharxcode/sharx-hr"><img src="https://img.shields.io/github/forks/sharxcode/sharx-hr.svg?style=for-the-badge" alt="SharxCode"></a>
 <a href="https://codeclimate.com/github/sharxcode/sharx-hr/maintainability"><img src="https://img.shields.io/codeclimate/maintainability/sharxcode/sharx-hr?logo=code-climate&style=for-the-badge"></a>
 <a href="https://github.com/sharxcode/sharx-hr/blob/master/LICENSE"><img src="https://img.shields.io/github/license/sharxcode/sharx-hr.svg?style=for-the-badge" alt="SharxCode"></a>
-<a href="https://laravel.com"><img src="https://img.shields.io/badge/Built%20In-Laravel-red.svg?style=for-the-badge&logo=laravel" alt="SharxCode"></a>
+<a href="https://laravel.com"><img src="https://img.shields.io/badge/Built%20with-Laravel-red.svg?style=for-the-badge&logo=laravel" alt="SharxCode"></a>
 </p>
 
 ## Sharx HR
