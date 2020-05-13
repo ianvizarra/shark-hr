@@ -56,6 +56,7 @@ If you discover a security vulnerability within Laravel, please use the issue tr
 ### Authors
 - Ian Vizarra ([@ianvizarra](https://github.com/ianvizarra))
 - CJ Calalang ([@chriscalalang](https://github.com/chriscalalang))
+- Mel Bulan ([@melbulan](https://github.com/melbulan))
 - Jearson Carillo ([@jearsoncarillo](https://github.com/jearsoncarillo))
 - Brian Calma ([@briancalma](https://github.com/briancalma))
 
